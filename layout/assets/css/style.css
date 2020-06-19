@@ -1,0 +1,145 @@
+@font-face
+{
+	font-family: homeday;
+	src:  fonts/Homeday.ttf;
+}
+
+@font-face
+{
+	font-family: roboto;
+	src:  fonts/Roboto-Regular.ttf;
+}
+
+*
+{
+	box-sizing: border-box;
+	font-family: roboto;
+	color: white;
+	font-size: 1em;
+}
+
+body
+{
+	margin: 0px;
+	background: #181818;
+}
+
+.container-full
+{
+	width: 100%;
+	margin: auto;
+	background: #181818;
+}
+
+.container
+{
+	width: 100%;
+	max-width: 800px;
+	margin: auto;
+	margin-top: 16px;
+	margin-bottom: 16px;
+	background: #181818;
+	padding: 8px;
+}
+
+.container-child
+{
+	margin: auto;
+	text-align: center;
+	width: 50%;
+}
+
+.container-center
+{
+	width: 100%;
+	max-width: 800px;
+	margin: auto;
+	background: #181818;
+	padding: 8px;
+	text-align: center;
+}
+
+.button
+{
+	background: transparent;
+	border: solid 1px white;
+	padding: 4px 8px;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	transition: 0.2s;
+	font-weight: bold;
+}
+
+.button:hover
+{
+	background: white;
+	color: black;
+	transition: 0.2s;
+}
+
+.width-full
+{
+	width: 100%;
+}
+
+.text-align-left
+{
+	text-align: left;
+}
+
+.text-align-right
+{
+	text-align: right;
+}
+
+
+.text-align-center
+{
+	text-align: center;
+}
+
+
+.input
+{
+	padding: 4px 8px;
+	background: #555555;
+	color: white;
+	border: solid 1px #222222;
+}
+
+table
+{
+	border-collapse: collapse;
+	width: 98%;
+	margin: 1%;
+	margin-bottom: 32px;
+}
+
+table tr
+{
+	border-bottom: solid 1px #292929;
+}
+
+table tr th
+{
+	font-size: 16px;
+	padding: 8px 0px;
+	text-align: center;
+}
+
+table tr td
+{
+	font-size: 14px;
+	padding: 4px 0px;
+	text-align: center
+}
+
+.visibility-hidden
+{
+	visibility: hidden
+}
+.display-none
+{
+	display: none;
+}

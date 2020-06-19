@@ -1,0 +1,91 @@
+/* @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700,700i);
+*/
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 16px;
+	background: #F8F9F9;
+}
+
+a {
+	text-decoration: none;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+table th {
+	background: #F8F9F9; 
+	padding: 4px;
+	text-align: left;
+	text-transform: capitalize;
+	font-weight: bold;
+	border: 1px solid #ccc;
+}
+
+table tr {
+	border: 1px solid #ccc;
+}
+
+table td {
+	padding: 6px;
+	border: 1px solid #ccc;
+}
+
+.container {
+	background: #fff;
+	width: 1020px;
+	margin: auto;
+	padding: 10px;
+}
+
+.header {
+	
+}
+
+.menu {
+	padding: 10px 0 0 0;
+}
+
+.menu a {
+	padding: 10px;
+	background: #c8a445;
+	color: #fff;
+	text-decoration: none;
+}
+
+.menu a:hover {
+	background: #af8d32;
+}
+
+.btn {
+	border: 1px solid #ccc;
+	font-size: 15px;
+	font-weight: 400;
+	padding: 4px;
+	vertical-align: 3px;
+	text-decoration: none;
+}
+
+.main {
+	min-height: 400px;
+}
+
+.grid-music {
+	display: grid;
+	grid-auto-columns:33,333333%;
+	grid-template-areas: "a a a";
+	grid-gap: 50px;
+}
+
+.grid-music > div {
+  text-align: center;
+}
+
+.footer {
+	border-top: 1px dotted #ccc;
+	padding-top: 10px; 
+	margin-top: 20px;
+	font-weight: 500px;
+}
